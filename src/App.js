@@ -11,7 +11,7 @@ const App = () => {
         <Router>
           <Header />
             <Routes>
-                <Route path="" index element={<Home/>}/>
+                <Route  index element={<Home/>}/>
                 <Route path="movie/:id" element={<Movie/>}></Route>
                 <Route path="movies/:type" element={<MovieList/>}></Route>
                 <Route path="/*" element={<h1>Error Page</h1>}></Route>
